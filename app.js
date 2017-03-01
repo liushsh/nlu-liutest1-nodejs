@@ -6,8 +6,8 @@ require('dotenv').config({ silent: true }); //  optional
 const nlu = new NaturalLanguageUnderstandingV1({
   // note: if unspecified here, credentials are pulled from environment properties:
   // NATURAL_LANGUAGE_UNDERSTANDING_USERNAME &  NATURAL_LANGUAGE_UNDERSTANDING_PASSWORD
-   username: 'ddc3ed94-6032-417b-ac2e-ab7faa8ee11f'.
-   password: '4ct36lkd1p4Z',
+  // username: 'ddc3ed94-6032-417b-ac2e-ab7faa8ee11f'.
+  // password: '4ct36lkd1p4Z',
   version_date: NaturalLanguageUnderstandingV1.VERSION_DATE_2016_01_23
 });
 
