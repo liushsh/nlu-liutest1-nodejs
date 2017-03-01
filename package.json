@@ -4,6 +4,9 @@
   "description": "Examples of using the IBM Watson Developer Cloud Node.js SDK",
   "private": true,
   "license": "Apache-2.0",
+  "scripts": {
+		"start": "node app.js"
+	},
   "dependencies": {
     "async": "^2.1.4",
     "dotenv": "^2.0.0",
